@@ -5,8 +5,8 @@ export const Book=(props)=>{
   const clickHandler=(e)=>{
     console.log(e);
     console.log(e.target);
-    alert('hello world')
-  }
+    alert('hello   world')
+  } 
    return(
      <article className='book'>
        <img src={img} alt="" />
